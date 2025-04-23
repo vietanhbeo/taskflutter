@@ -3,7 +3,7 @@
     {
       "id": "user1",
       "username": "viet_user",
-      "password": "password123",
+      "password": "viet@123456",
       "email": "viet@example.com",
       "avatar": "https://via.placeholder.com/150",
       "createdAt": "2025-04-01T10:00:00Z",
