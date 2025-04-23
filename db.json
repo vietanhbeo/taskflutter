@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "id": "user1",
+      "username": "viet_user",
+      "password": "password123",
+      "email": "viet@example.com",
+      "avatar": "https://via.placeholder.com/150",
+      "createdAt": "2025-04-01T10:00:00Z",
+      "lastActive": "2025-04-23T08:00:00Z"
+    },
+    {
+      "id": "user2",
+      "username": "admin",
+      "password": "adminpass",
+      "email": "admin@example.com",
+      "avatar": "https://via.placeholder.com/150",
+      "createdAt": "2025-01-01T12:00:00Z",
+      "lastActive": "2025-04-22T18:00:00Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task1",
+      "title": "Thiết kế giao diện",
+      "description": "Thiết kế giao diện đăng nhập và đăng ký.",
+      "status": "To do",
+      "priority": 3,
+      "dueDate": "2025-05-01T10:00:00Z",
+      "createdAt": "2025-04-10T14:00:00Z",
+      "updatedAt": "2025-04-15T15:00:00Z",
+      "assignedTo": "user1",
+      "createdBy": "user2",
+      "category": "UI/UX",
+      "attachments": ["https://via.placeholder.com/100"],
+      "completed": false
+    },
+    {
+      "id": "task2",
+      "title": "Tích hợp API",
+      "description": "Tích hợp API cho chức năng đăng nhập.",
+      "status": "In progress",
+      "priority": 2,
+      "dueDate": "2025-05-10T10:00:00Z",
+      "createdAt": "2025-04-12T09:00:00Z",
+      "updatedAt": "2025-04-22T18:00:00Z",
+      "assignedTo": "user2",
+      "createdBy": "user1",
+      "category": "Backend",
+      "attachments": null,
+      "completed": false
+    }
+  ]
+}
